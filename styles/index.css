@@ -1,0 +1,41 @@
+body{
+    margin: auto;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background:#282a36;
+    height: 100vh;
+    color: #fff;
+}
+.otp-field{
+    display: flex;
+}
+.otp-field input{
+    width: 24px;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid #55525c;
+    font-weight:bold;
+    color: #fff;
+    outline: none;
+    transition:.1s all ;
+    -webkit-transition:.1s all ;
+    -moz-transition:.1s all ;
+    -ms-transition:.1s all ;
+    -o-transition:.1s all ;
+}
+.otp-field input :focus{
+    border:  2px solid #a527ff;
+    box-shadow: 0 0 2px 2px #a527ff6a;
+}
+.space{
+    margin-right: 1rem !important;
+}
